@@ -1,0 +1,40 @@
+
+
+
+
+
+Step 1
+    implement fixed map
+        --maybe create a map or download
+
+    implement controls
+        --unit selection with left click dragging
+        --unit hotkey selection for unit actions
+        --hotkey selection for buildings
+        --mouse click for buttons
+        --special button function like escape key
+
+    implement sprites
+        --create circle sprite for entity
+        --create square sprite 
+    
+    implement entity
+        class structure {
+                                entity
+                                /   \
+                            unit    buildings
+                            /              \
+            --------------------           ----------------------------------------
+            |          |        |           |           |           |            |
+        soldier      tank     jet        barracks      factory    airfield      hq
+
+        }
+        entity is base class
+
+        focus on core functionality within each
+
+    implement game
+        class structure {
+            game
+                --update
+        }
